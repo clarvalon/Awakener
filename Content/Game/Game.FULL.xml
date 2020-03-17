@@ -4270,6 +4270,8 @@
   <AudioClip IntID="9" ScriptID="aSound14" RelativePath="Sound" RelativeFileName="Sound\aSound14.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="10" ScriptID="aSound15" RelativePath="Sound" RelativeFileName="Sound\aSound15.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="11" ScriptID="aSound16" RelativePath="Sound" RelativeFileName="Sound\aSound16.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
+  <AudioClip IntID="20" ScriptID="aSound17" RelativePath="Sound" RelativeFileName="Sound\aSound17.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
+  <AudioClip IntID="21" ScriptID="aSound18" RelativePath="Sound" RelativeFileName="Sound\aSound18.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="12" ScriptID="aSound2" RelativePath="Sound" RelativeFileName="Sound\aSound2.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="13" ScriptID="aSound3" RelativePath="Sound" RelativeFileName="Sound\aSound3.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="14" ScriptID="aSound4" RelativePath="Sound" RelativeFileName="Sound\aSound4.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
@@ -4278,16 +4280,14 @@
   <AudioClip IntID="17" ScriptID="aSound7" RelativePath="Sound" RelativeFileName="Sound\aSound7.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="18" ScriptID="aSound8" RelativePath="Sound" RelativeFileName="Sound\aSound8.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioClip IntID="19" ScriptID="aSound9" RelativePath="Sound" RelativeFileName="Sound\aSound9.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
-  <AudioClip IntID="20" ScriptID="aSound17" RelativePath="Sound" RelativeFileName="Sound\aSound17.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
-  <AudioClip IntID="21" ScriptID="aSound18" RelativePath="Sound" RelativeFileName="Sound\aSound18.ogg" DefaultVolume="-1" DefaultPriority="Inherit" DefaultRepeat="Inherit" TypeID="2" />
   <AudioFolder RelativePath="Music" DefaultVolume="100" DefaultPriority="Normal" DefaultRepeat="True" DefaultTypeID="1" />
   <AudioFolder RelativePath="Sound" DefaultVolume="100" DefaultPriority="Normal" DefaultRepeat="False" DefaultTypeID="2" />
   <AudioClipTypes TypeID="1" Name="Music" MaxChannels="1" VolumeReductionWhileSpeechPlaying="30" CrossfadeClips="No" />
   <AudioClipTypes TypeID="2" Name="Sound" MaxChannels="0" VolumeReductionWhileSpeechPlaying="30" CrossfadeClips="No" />
-  <Font IntID="0" Name="Font 0" StartCharacter="0" EndCharacter="256" Spacing="0" OutlineStyle="Automatic" FontHeight="8" />
-  <Font IntID="1" Name="Font 1" StartCharacter="0" EndCharacter="128" Spacing="0" OutlineFont="Font 2" OutlineStyle="UseOutlineFont" FontHeight="0" />
-  <Font IntID="2" Name="Font 2" StartCharacter="0" EndCharacter="128" Spacing="0" OutlineStyle="None" FontHeight="0" />
-  <Font IntID="3" Name="Font 3" StartCharacter="0" EndCharacter="256" Spacing="0" OutlineStyle="Automatic" FontHeight="8" />
+  <Font IntID="0" Name="Font 0" StartCharacter="0" EndCharacter="256" Spacing="-1" OutlineStyle="Automatic" FontHeight="8" />
+  <Font IntID="1" Name="Font 1" StartCharacter="0" EndCharacter="128" Spacing="-1" OutlineFont="Font 2" OutlineStyle="UseOutlineFont" FontHeight="0" />
+  <Font IntID="2" Name="Font 2" StartCharacter="0" EndCharacter="128" Spacing="-1" OutlineStyle="None" FontHeight="0" />
+  <Font IntID="3" Name="Font 3" StartCharacter="0" EndCharacter="256" Spacing="-1" OutlineStyle="Automatic" FontHeight="8" />
   <Font IntID="4" Name="Notalot35.Regular.12" StartCharacter="0" EndCharacter="0" Spacing="0" OutlineStyle="None" FontHeight="0" />
   <Font IntID="5" Name="pix Chicago.Regular.6" StartCharacter="0" EndCharacter="0" Spacing="0" OutlineStyle="None" FontHeight="0" />
   <Font IntID="6" Name="Thintel.Regular.12" StartCharacter="0" EndCharacter="0" Spacing="0" OutlineStyle="None" FontHeight="0" />
