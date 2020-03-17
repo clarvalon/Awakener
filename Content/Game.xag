@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <GameID>Awakener</GameID>
-  <UniversalScale>1</UniversalScale>
+  <UniversalScale>2</UniversalScale>
   <GameScreenWidth>320</GameScreenWidth>
   <GameScreenHeight>240</GameScreenHeight>
-  <Key>ChangeToYourOwnLongPassword</Key>
+  <Key>cegrgrtgrvrgrg</Key>
   <UnitOfTimeInSeconds>0.025</UnitOfTimeInSeconds>
   <NormalFont>Font 0</NormalFont>
   <SpeechFont>Font 1</SpeechFont>
