@@ -3,6 +3,8 @@
 
 _Fadi has been given permission to visit his Aunt Sylvia for the day - but Auntie Sylvia has a problem, and would like some help fixing it. Join Fadi on a snack sized adventure through a colourful world that is host to a bunch of even more colourful characters!_
 
+![Awakener](Docs/GitHubBanner.png)
+
 Game and Art by [Ben Chandler](https://twitter.com/ben_304). Music by Sebastian Pfaller. Ported to XAGE by [Dan Alexander](https://twitter.com/clarvalon).
 
 ## Prerequisites
