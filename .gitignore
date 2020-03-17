@@ -35,9 +35,9 @@ syntax: glob
 */obj_core/*
 
 # To store raw assets in the repository, comment out these three lines
-Content/Graphics/*
-Content/Audio/*
-Content/Voice/*
+#Content/Graphics/*
+#Content/Audio/*
+#Content/Voice/*
 
 Content/Game/*.DIFF.BEFORE.PROTO.xml
 Content/Game/*.DIFF.AFTER.PROTO.xml
