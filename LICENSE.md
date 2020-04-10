@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Dan Alexander
+Copyright (c) 2009 Ben Chandler. Ported to XAGE and posted to GitHub with permission by Dan Alexander (2020).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
