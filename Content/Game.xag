@@ -7,12 +7,39 @@
   <Key>cegrgrtgrvrgrg</Key>
   <UnitOfTimeInSeconds>0.025</UnitOfTimeInSeconds>
   <NormalFont>Font 0</NormalFont>
-  <SpeechFont>Font 1</SpeechFont>
+  <SpeechFont>Notalot35.Regular.12</SpeechFont>
   <AutoSelectSingleConversationOption>true</AutoSelectSingleConversationOption>
   <BackgroundOffsetSpeed>10</BackgroundOffsetSpeed>
   <GenerateUppercaseIntegralsInScripting>true</GenerateUppercaseIntegralsInScripting>
   <ResetWalkableAreasOnRoomChange>true</ResetWalkableAreasOnRoomChange>
   <UseHalfSizeCoords>false</UseHalfSizeCoords>
+  <ControllerSupport>Simple</ControllerSupport>
+  <LeftThumbstickAction>MoveCursor</LeftThumbstickAction>
+  <RightThumbstickAction>WalkPlayer</RightThumbstickAction>
+  <AButtonAction>LeftClick</AButtonAction>
+  <BButtonAction>RightClick</BButtonAction>
+  <XButtonAction>None</XButtonAction>
+  <YButtonAction>None</YButtonAction>
+  <StartButtonAction>None</StartButtonAction>
+  <BackButtonAction>None</BackButtonAction>
+  <DPadUpButtonAction>None</DPadUpButtonAction>
+  <DPadDownButtonAction>None</DPadDownButtonAction>
+  <DPadLeftButtonAction>None</DPadLeftButtonAction>
+  <DPadRightButtonAction>None</DPadRightButtonAction>
+  <LeftShoulderButtonAction>None</LeftShoulderButtonAction>
+  <RightShoulderButtonAction>None</RightShoulderButtonAction>
+  <LeftTriggerButtonAction>None</LeftTriggerButtonAction>
+  <RightTriggerButtonAction>None</RightTriggerButtonAction>
+  <LeftThumbstickClickButtonAction>None</LeftThumbstickClickButtonAction>
+  <RightThumbstickClickButtonAction>None</RightThumbstickClickButtonAction>
+  <LeftThumbstickPushUpAction>None</LeftThumbstickPushUpAction>
+  <LeftThumbstickPushDownAction>None</LeftThumbstickPushDownAction>
+  <LeftThumbstickPushLeftAction>None</LeftThumbstickPushLeftAction>
+  <LeftThumbstickPushRightAction>None</LeftThumbstickPushRightAction>
+  <RightThumbstickPushUpAction>None</RightThumbstickPushUpAction>
+  <RightThumbstickPushDownAction>None</RightThumbstickPushDownAction>
+  <RightThumbstickPushLeftAction>None</RightThumbstickPushLeftAction>
+  <RightThumbstickPushRightAction>None</RightThumbstickPushRightAction>
   <UserSettings>
     <FullScreen>false</FullScreen>
     <CursorScrollSpeed>4.5</CursorScrollSpeed>
@@ -28,19 +55,31 @@
   <Platforms>
     <PlatformSettings>
       <Platform>[DESKTOP.SOLUTION.GUID]</Platform>
-      <GUID>6D719420-33AA-43A2-B942-778C3C8C0CB2</GUID>
+      <GUID>94CF6508-8611-435E-8787-B3ED607DC527</GUID>
     </PlatformSettings>
     <PlatformSettings>
       <Platform>[DESKTOP.SOLUTION2.GUID]</Platform>
-      <GUID>2E4C9FC6-6334-45E0-BF5F-997951571F29</GUID>
+      <GUID>B8436F60-65B6-472F-B188-08731DCDA2AA</GUID>
     </PlatformSettings>
     <PlatformSettings>
       <Platform>[DESKTOP.PROJECT.GUID]</Platform>
-      <GUID>92E7F9C2-D644-4383-84A1-6A9E19A9F9C2</GUID>
+      <GUID>8700485E-3D8B-467E-85CD-005E1C821F8F</GUID>
     </PlatformSettings>
     <PlatformSettings>
       <Platform>[SCRIPT.PROJECT.GUID]</Platform>
-      <GUID>310A5F53-29CE-4E1C-95B9-ECDAD2A127A9</GUID>
+      <GUID>A73194AC-B8B4-444B-AB0B-D50B4892DF4C</GUID>
+    </PlatformSettings>
+    <PlatformSettings>
+      <Platform>[UWP.SOLUTION.GUID]</Platform>
+      <GUID>74AF7D40-9567-43FA-A843-E21D93994AA7</GUID>
+    </PlatformSettings>
+    <PlatformSettings>
+      <Platform>[UWP.SOLUTION2.GUID]</Platform>
+      <GUID>65087731-7F54-46DE-A883-D8B77A86A74A</GUID>
+    </PlatformSettings>
+    <PlatformSettings>
+      <Platform>[UWP.PROJECT.GUID]</Platform>
+      <GUID>2B2C6D93-9D3A-4233-AA68-ED429965083E</GUID>
     </PlatformSettings>
   </Platforms>
 </GameSettings>

@@ -410,7 +410,10 @@
     <GImage IntID="377" ScriptID="spr00377" RelativeFileName="Sprites\Titles\spr00377.png" />
     <GImage IntID="403" ScriptID="spr00403" RelativeFileName="Sprites\Titles\spr00403.png" />
   </Images>
-  <Folders />
+  <Folders>
+    <GFolder RelativeFileName="Sprites\" />
+    <GFolder RelativeFileName="Rooms\" />
+  </Folders>
   <GUIs>
     <GUI IntID="0" ScriptID="gHotspot">
       <X>0</X>
@@ -418,7 +421,7 @@
       <Z>10</Z>
       <Over>false</Over>
       <Click>false</Click>
-      <Visibility>Persistent</Visibility>
+      <PopupStyle>Persistent</PopupStyle>
       <PopupYPos>0</PopupYPos>
       <NeverDrawBackground>true</NeverDrawBackground>
       <Alpha>255</Alpha>
@@ -429,7 +432,7 @@
           <Z>0</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -461,7 +464,7 @@
       <Z>-1</Z>
       <Over>false</Over>
       <Click>false</Click>
-      <Visibility>Normal</Visibility>
+      <PopupStyle>Normal</PopupStyle>
       <PopupYPos>20</PopupYPos>
       <NeverDrawBackground>true</NeverDrawBackground>
       <Alpha>255</Alpha>
@@ -472,7 +475,7 @@
           <Z>0</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -493,7 +496,7 @@
           <Z>1</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -518,7 +521,7 @@
       </Controls>
       <Width>320</Width>
       <Height>29</Height>
-      <Visible>true</Visible>
+      <Visible>false</Visible>
       <NormalFrame>spr00373</NormalFrame>
       <BorderColour R="0" G="0" B="0" A="0" />
       <BackgroundColour R="0" G="0" B="0" A="0" />
@@ -530,7 +533,7 @@
       <Z>0</Z>
       <Over>false</Over>
       <Click>false</Click>
-      <Visibility>NormalButInitiallyOff</Visibility>
+      <PopupStyle>NormalButInitiallyOff</PopupStyle>
       <PopupYPos>0</PopupYPos>
       <NeverDrawBackground>true</NeverDrawBackground>
       <Alpha>255</Alpha>
@@ -549,7 +552,7 @@
       <Z>5</Z>
       <Over>false</Over>
       <Click>false</Click>
-      <Visibility>PopupModal</Visibility>
+      <PopupStyle>PopupModal</PopupStyle>
       <PopupYPos>0</PopupYPos>
       <NeverDrawBackground>true</NeverDrawBackground>
       <Alpha>255</Alpha>
@@ -560,7 +563,7 @@
           <Z>0</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -588,7 +591,7 @@
           <Z>1</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -616,7 +619,7 @@
           <Z>2</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -644,7 +647,7 @@
           <Z>3</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -672,7 +675,7 @@
           <Z>4</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -700,7 +703,7 @@
           <Z>5</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -728,7 +731,7 @@
           <Z>6</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -756,7 +759,7 @@
           <Z>0</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -779,7 +782,7 @@
           <Z>8</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -807,7 +810,7 @@
           <Z>0</Z>
           <Over>false</Over>
           <Click>false</Click>
-          <Visibility>Normal</Visibility>
+          <PopupStyle>Normal</PopupStyle>
           <PopupYPos>0</PopupYPos>
           <NeverDrawBackground>false</NeverDrawBackground>
           <Alpha>255</Alpha>
@@ -3434,7 +3437,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="1" ScriptID="cGuard" Name="Guard" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="568" Y="215" />
@@ -3497,7 +3500,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="2" ScriptID="cPigeon" Name="Pigeon" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="377" Y="92" />
@@ -3527,7 +3530,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="3" ScriptID="cSnacks" Name="Girl" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="618" Y="225" />
@@ -3602,7 +3605,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="4" ScriptID="cAunt" Name="Auntie Sylvia" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="52" Y="217" />
@@ -3695,7 +3698,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="5" ScriptID="cAssassin" Name="Assassin" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="188" Y="196" />
@@ -3758,7 +3761,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="6" ScriptID="cMerchant" Name="Chanter" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="489" Y="159" />
@@ -3827,7 +3830,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="7" ScriptID="cCleric" Name="Cleric" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="332" Y="196" />
@@ -3890,7 +3893,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="8" ScriptID="cSleeper" Name="Sleeping Man" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="101" Y="213" />
@@ -3920,7 +3923,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="9" ScriptID="cStatue" Name="New character" Enabled="false" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="377" Y="135" />
@@ -3985,7 +3988,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="10" ScriptID="cPoron" Name="Poron" Enabled="false" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="574" Y="210" />
@@ -4045,7 +4048,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="11" ScriptID="cImp" Name="Imp" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="307" Y="125" />
@@ -4114,7 +4117,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="12" ScriptID="cDeity" Name="New character" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="160" Y="120" />
@@ -4141,7 +4144,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="13" ScriptID="cBarrel" Name="New character" Enabled="false" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="12" Y="234" />
@@ -4168,7 +4171,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="14" ScriptID="cWraith" Name="Wraith" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="160" Y="120" />
@@ -4196,7 +4199,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Character IntID="15" ScriptID="cNar" Name="New character" Enabled="true" Scale="0" X1="0" Y1="0" X2="0" Y2="0" SelectionType="PerPixel">
     <Position X="160" Y="120" />
@@ -4223,7 +4226,7 @@
     <MovementLinkedToAnimation>true</MovementLinkedToAnimation>
     <TurnBeforeWalking>true</TurnBeforeWalking>
     <UseRoomAreaLighting>true</UseRoomAreaLighting>
-    <UseRoomAreaScaling>true</UseRoomAreaScaling>
+    <UseManualScaling>false</UseManualScaling>
   </Character>
   <Module>
     <ScriptID>HotSpotLabel</ScriptID>

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml.Serialization;
 using MessagePack;
+using Microsoft.Xna.Framework.Input;
 using Clarvalon.XAGE.Global;
 
 namespace Awakener
@@ -51,9 +52,9 @@ namespace Awakener
 
         public override void repeatedly_execute()
         {
-            if (Mouse.Mode != eModeInteract && Mouse.Mode != eModeUseinv)
+            if (mouse.Mode != eModeInteract && mouse.Mode != eModeUseinv)
             {
-                Mouse.Mode = eModeInteract;
+                mouse.Mode = eModeInteract;
             }
             InventoryGraphicSelect();
             UpdateHotSpotLabel();
@@ -101,7 +102,7 @@ namespace Awakener
             {
                 if (GetLocationType(mouse.x, mouse.y) != eLocationNothing)
                 {
-                    ProcessClick(mouse.x,mouse.y, Mouse.Mode);
+                    ProcessClick(mouse.x,mouse.y, mouse.Mode);
                 }
                 else 
                     ProcessClick(mouse.x, mouse.y, eModeWalkto);

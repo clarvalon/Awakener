@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml.Serialization;
 using MessagePack;
+using Microsoft.Xna.Framework.Input;
 using Clarvalon.XAGE.Global;
 
 namespace Awakener
